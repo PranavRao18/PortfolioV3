@@ -2,16 +2,16 @@ import React, { useState } from 'react';
 
 const Overlay = ({ onClose }) => {
   return (
-    <div className="fixed top-4 left-4 h-screen w-screen sm:w-1/2 md:w-1/3 bg-[#464335] flex items-center justify-center z-40 rounded-[30px] overlay overflow-hidden" onClick={onClose}>
+    <div className="fixed top-2 sm:top-4 left-2 sm:left-4 h-screen w-screen sm:w-1/2 md:w-1/3 bg-[#464335] flex items-center justify-center z-40 rounded-[30px] overlay overflow-hidden pl-2" onClick={onClose}>
     <div className='absolute w-[2000px] h-80 bg-[#DAD7C733] -rotate-[40deg] z-0 mt-80'></div>
       <div className="overlay-content text-primarylight z-10">
         <ul>
-          <li className='text-7xl font-bold hover:text-[#262010] p-4'><a href='#home'>Home</a></li>
-          <li className='text-7xl font-bold hover:text-[#262010] p-4'><a href='#home'>About</a></li>
-          <li className='text-7xl font-bold hover:text-[#262010] p-4'><a href='#home'>Experience</a></li>
-          <li className='text-7xl font-bold hover:text-[#262010] p-4'><a href='#home'>Projects</a></li>
-          <li className='text-7xl font-bold hover:text-[#262010] p-4'><a href='#home'>Certificates</a></li>
-          <li className='text-7xl font-bold hover:text-[#262010] p-4'><a href='#home'>Contact</a></li>
+          <li className='text-6xl sm:text-7xl font-bold hover:text-[#262010] p-4'><a href='#home'>Home</a></li>
+          <li className='text-6xl sm:text-7xl font-bold hover:text-[#262010] p-4'><a href='#home'>About</a></li>
+          <li className='text-6xl sm:text-7xl font-bold hover:text-[#262010] p-4'><a href='#home'>Experience</a></li>
+          <li className='text-6xl sm:text-7xl font-bold hover:text-[#262010] p-4'><a href='#home'>Projects</a></li>
+          <li className='text-6xl sm:text-7xl font-bold hover:text-[#262010] p-4'><a href='#home'>Certificates</a></li>
+          <li className='text-6xl sm:text-7xl font-bold hover:text-[#262010] p-4'><a href='#home'>Contact</a></li>
         </ul>
       </div>
     </div>
