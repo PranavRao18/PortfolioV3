@@ -25,31 +25,31 @@ const Overlay = ({ onClose }) => {
                         animate = {{opacity : 1, x: '0px'}}
                         exit = {{ opacity: 0, x: '-50px'}}
                         transition = {{ duration: 0.5, ease: 'backOut', delay: 0.4}}
-                        ><a href='#home'>About</a></motion.li>
+                        ><a href='#about'>About</a></motion.li>
             <motion.li className='text-5xl sm:text-7xl font-bold hover:text-[#262010] p-4'
                         initial = {{opacity: 0, x:'-50px'}}
                         animate = {{opacity : 1, x: '0px'}}
                         exit = {{ opacity: 0, x: '-50px'}}
                         transition = {{ duration: 0.5, ease: 'backOut', delay: 0.5}}
-                        ><a href='#home'>Experience</a></motion.li>
+                        ><a href='#experience'>Experience</a></motion.li>
             <motion.li className='text-5xl sm:text-7xl font-bold hover:text-[#262010] p-4'
                         initial = {{opacity: 0, x:'-50px'}}
                         animate = {{opacity : 1, x: '0px'}}
                         exit = {{ opacity: 0, x: '-50px'}}
                         transition = {{ duration: 0.5, ease: 'backOut', delay: 0.6}}
-                        ><a href='#home'>Projects</a></motion.li>
+                        ><a href='#projects'>Projects</a></motion.li>
             <motion.li className='text-5xl sm:text-7xl font-bold hover:text-[#262010] p-4'
                         initial = {{opacity: 0, x:'-50px'}}
                         animate = {{opacity : 1, x: '0px'}}
                         exit = {{ opacity: 0, x: '-50px'}}
                         transition = {{ duration: 0.5, ease: 'backOut', delay: 0.7}}
-                        ><a href='#home'>Certificates</a></motion.li>
+                        ><a href='#certificates'>Certificates</a></motion.li>
             <motion.li className='text-5xl sm:text-7xl font-bold hover:text-[#262010] p-4'
                         initial = {{opacity: 0, x:'-50px'}}
                         animate = {{opacity : 1, x: '0px'}}
                         exit = {{ opacity: 0, x: '-50px'}}
                         transition = {{ duration: 0.5, ease: 'backOut', delay: 0.8}}
-                        ><a href='#home'>Contact</a></motion.li>
+                        ><a href='#contact'>Contact</a></motion.li>
           </motion.ul>
         </div>
       </motion.div>

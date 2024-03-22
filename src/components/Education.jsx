@@ -9,7 +9,7 @@ const EducationCard = ({ education }) => {
             contentStyle={{ background: '#D9D6B277', color: '#fff' }}
             contentArrowStyle={{ borderRight: '7px solid #D9D6B277' }}
             date={education.date}
-            iconStyle={{ background: '#E7DAB5' }}
+            iconStyle={{ background: '#FFFF99' }}
             position="right"
         >
             <div>

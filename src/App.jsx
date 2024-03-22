@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import Home from './Sections/Home'
 import About from './Sections/About'
 import Navbar from './components/Navbar'
+import Experience from './Sections/Experience'
+import Projects from './Sections/Projects'
 
 const App = () => {
 
@@ -10,6 +12,8 @@ const App = () => {
       <Navbar />
       <Home />
       <About />
+      <Experience />
+      <Projects />
     </div>
   )
 }
