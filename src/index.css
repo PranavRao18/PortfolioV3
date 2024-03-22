@@ -10,8 +10,12 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
-  color-scheme: dark;
   /* border: 1px solid red; */
+}
+
+*::selection{
+  background-color: black;
+  color: wheat;
 }
 
 /* Navbar */
