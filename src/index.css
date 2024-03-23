@@ -70,6 +70,10 @@
   border: 1px solid rgba(255, 255, 255, 0.43);
 }
 
+.glass:hover{
+  cursor: url('./assets/images/cursor.png'), auto;
+}
+
 
 @keyframes transition-left {
   from {

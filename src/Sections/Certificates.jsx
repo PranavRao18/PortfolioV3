@@ -16,7 +16,7 @@ const ProjectCard = ({ project, index }) => {
     );
 };
 
-const Projects = () => {
+const Certificates = () => {
     return (
         <motion.div variants={textVariant()} className='bg-black rounded-[50px] p-8 sm:p-20 min-h-screen relative overflow-hidden'>
             <motion.h1 className='text-textdark1 text-5xl sm:text-8xl font-semibold text-center p-8'>PROJECTS</motion.h1>
@@ -33,4 +33,4 @@ const Projects = () => {
     );
 };
 
-export default SectionWrapper(Projects, 'projects');
+export default SectionWrapper(Certificates, 'certificates');

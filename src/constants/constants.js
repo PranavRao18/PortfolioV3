@@ -22,6 +22,9 @@
 import nooffensebut from '../assets/images/nooofensebut.jpeg';
 import codeio from '../assets/images/codeio.jpeg';
 import wheele from '../assets/images/Wheele.png'  
+import leetcode from '../assets/images/leetcode.png';
+import github from '../assets/images/github.png';
+import codechef from '../assets/images/codechef.jpeg';
 
 //   const services = [
 //     {
@@ -230,21 +233,39 @@ import wheele from '../assets/images/Wheele.png'
 //     },
 //   ]
 
-const experience = [
+const coding = [
     {
-        image: nooffensebut,
-        title: "Web Development Intern",
-        company: "No Offense, But",
-        date: "Feb 2023 - Present",
-        description: "My main focus these days is building products and leading projects for our clients at Upstatement. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I've also released an online video course that covers everything you need to know to build a web app with the Spotify API."
+        image: leetcode,
+        title: "Leetcode",
+        description: "Max Rating: 1691 | 350+ Problems Solved"
     },
     {
-        image: codeio,
-        title: "Member of Development Team",
-        company: "<CodeIO/>",
-        date: "Jan 2023 - Present",
-        description: "My main focus these days is building products and leading projects for our clients at Upstatement. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I've also released an online video course that covers everything you need to know to build a web app with the Spotify API."
-    }
+        image: codechef,
+        title: "Codechef",
+        description: "3🌟 | Max Rating: 1650 | 150+ Problems Solved"
+    },
+    {
+        image: github,
+        title: "Github",
+        description: "10+ Public Repos | 10+ Projects"
+    },
+]
+
+const experience = [
+  {
+      image: nooffensebut,
+      title: "Web Development Intern",
+      company: "No Offense, But",
+      date: "Feb 2023 - Present",
+      description: "My main focus these days is building products and leading projects for our clients at Upstatement. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I've also released an online video course that covers everything you need to know to build a web app with the Spotify API."
+  },
+  {
+      image: codeio,
+      title: "Member of Development Team",
+      company: "<CodeIO/>",
+      date: "Jan 2023 - Present",
+      description: "My main focus these days is building products and leading projects for our clients at Upstatement. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I've also released an online video course that covers everything you need to know to build a web app with the Spotify API."
+  }
 ]
 
 const projects = [
@@ -260,8 +281,32 @@ const projects = [
       github: 'https://github.com/me-sanath/climate',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
     },
+    {
+      title: 'GeoCrisis',
+      image: wheele,
+      github: 'https://github.com/me-sanath/climate',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
+    },
+    {
+      title: 'Portfolio',
+      image: wheele,
+      github: 'https://github.com/me-sanath/climate',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
+    },
+    {
+      title: 'College Guidance',
+      image: wheele,
+      github: 'https://github.com/me-sanath/climate',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
+    },
+    {
+      title: 'No Offense, But',
+      image: wheele,
+      github: 'https://github.com/me-sanath/climate',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
+    },
   ];
   
 //   export { services, technologies, education, achievements, projects };
 
-export { education, experience, projects };
+export { education, experience, projects, coding };
