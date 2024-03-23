@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 const Overlay = ({ onClose }) => {
   return (
     <AnimatePresence>
-      <motion.div className={`fixed top-2 sm:top-4 left-2 sm:left-4 h-[98vh] w-[96vw] sm:w-1/2 md:w-1/3 bg-[#464335] flex items-center justify-center z-40 rounded-[30px] overflow-hidden pl-2`}
+      <motion.div className={`fixed top-2 sm:top-4 left-2 sm:left-4 h-[98vh] w-[96vw] sm:w-2/3 lg:w-1/3 bg-[#464335] flex items-center justify-center z-40 rounded-[30px] overflow-hidden pl-2`}
         onClick={onClose}
         initial={{ opacity: 0.5, x: '-120px' }}
         animate={{ opacity: 1, x: '0' }}
@@ -38,6 +38,12 @@ const Overlay = ({ onClose }) => {
                         exit = {{ opacity: 0, x: '-50px'}}
                         transition = {{ duration: 0.5, ease: 'backOut', delay: 0.6}}
                         ><a href='#projects'>Projects</a></motion.li>
+            <motion.li className='text-5xl sm:text-7xl font-bold hover:text-[#262010] p-4'
+                        initial = {{opacity: 0, x:'-50px'}}
+                        animate = {{opacity : 1, x: '0px'}}
+                        exit = {{ opacity: 0, x: '-50px'}}
+                        transition = {{ duration: 0.5, ease: 'backOut', delay: 0.6}}
+                        ><a href='#coding'>Profiles</a></motion.li>
             <motion.li className='text-5xl sm:text-7xl font-bold hover:text-[#262010] p-4'
                         initial = {{opacity: 0, x:'-50px'}}
                         animate = {{opacity : 1, x: '0px'}}

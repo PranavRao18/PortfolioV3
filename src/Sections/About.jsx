@@ -8,7 +8,7 @@ import { SectionWrapper } from '../hoc';
 const About = () => {
     return (
         <motion.div variants={textVariant()} className='bg-black flex flex-col justify-center rounded-[50px] p-8 pt-12 sm:p-20 sm:pb-8 relative overflow-hidden'>
-            <motion.h1 className='text-textdark1 text-6xl sm:text-8xl font-semibold text-center p-0 sm:p-8'>ABOUT ME</motion.h1>
+            <motion.h1 className='text-textdark1 text-6xl sm:text-8xl font-semibold text-center p-0 sm:p-8 z-20'>ABOUT ME</motion.h1>
             <motion.div variants={textVariant(0.8)} className='bg-gradient-to-b from-[#C9C6B2DD] to-transparent rounded-full w-[15rem] sm:w-[35rem] h-[15rem] sm:h-[35rem] absolute top-[25rem] sm:top-72 -right-10 sm:right-10 z-10 overflow-hidden'></motion.div>
             <motion.div variants={textVariant(0.4)} className='bg-gradient-to-b from-[#464335DD] to-transparent rounded-full w-[25rem] sm:w-[40rem] h-[25rem] sm:h-[40rem] absolute top-[20rem] sm:top-40 -right-28 sm:-right-20 z-10 overflow-hidden'></motion.div>
             <motion.div variants={textVariant(1.4)} className='bg-gradient-to-b from-[#464335DD] to-transparent rounded-full w-[20rem] sm:w-[50rem] h-[20rem] sm:h-[50rem] absolute -bottom-32 sm:-bottom-36 -left-32 sm:-left-44 z-10'></motion.div>

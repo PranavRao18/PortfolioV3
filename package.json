@@ -10,15 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.15.10",
     "@mui/material": "^5.15.10",
     "autoprefixer": "^10.4.17",
+    "emailjs": "^4.0.3",
     "framer-motion": "^11.0.5",
     "postcss": "^8.4.35",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-parallax": "^3.5.1",
+    "react-scroll-parallax": "^3.4.5",
     "react-vertical-timeline-component": "^3.6.0"
   },
   "devDependencies": {

@@ -19,11 +19,11 @@ const ProjectCard = ({ project, index }) => {
 const Projects = () => {
     return (
         <motion.div variants={textVariant()} className='bg-black rounded-[50px] p-8 sm:p-20 min-h-screen relative overflow-hidden'>
-            <motion.h1 className='text-textdark1 text-5xl sm:text-8xl font-semibold text-center p-8'>PROJECTS</motion.h1>
+            <motion.h1 className='text-textdark1 text-5xl sm:text-8xl font-semibold text-center p-8 z-20'>PROJECTS</motion.h1>
             <motion.div variants={textVariant(1.3)} className='bg-gradient-to-b from-[#C9C692] to-transparent rounded-full w-[15rem] sm:w-[35rem] h-[15rem] sm:h-[35rem] absolute top-[25rem] sm:bottom-20 -right-10 sm:-right-10 z-10'></motion.div>
             <motion.div variants={textVariant(1.5)} className='bg-gradient-to-b from-[#565335] to-transparent rounded-full w-[25rem] sm:w-[40rem] h-[25rem] sm:h-[40rem] absolute top-[20rem] sm:top-20 -right-28 sm:-right-20 z-10'></motion.div>
-            <motion.div variants={textVariant(1.7)} className='bg-gradient-to-b from-[#565335] to-transparent rounded-full w-[20rem] sm:w-[50rem] h-[20rem] sm:h-[50rem] absolute -bottom-32 sm:bottom-36 -left-32 sm:-left-44 z-10'></motion.div>
-            <motion.div variants={textVariant(1.9)} className='bg-gradient-to-b from-[#C9C692] to-transparent rounded-full w-[15rem] sm:w-[35rem] h-[15rem] sm:h-[35rem] absolute -bottom-28 sm:bottom-2 -left-28 sm:-left-20 z-10'></motion.div>
+            <motion.div variants={textVariant(1.7)} className='bg-gradient-to-b from-[#565335] to-transparent rounded-full w-[20rem] sm:w-[50rem] h-[20rem] sm:h-[50rem] absolute bottom-[35rem] sm:bottom-36 -left-32 sm:-left-44 z-10'></motion.div>
+            <motion.div variants={textVariant(1.9)} className='bg-gradient-to-b from-[#C9C692] to-transparent rounded-full w-[15rem] sm:w-[35rem] h-[15rem] sm:h-[35rem] absolute bottom-[35rem] sm:bottom-2 -left-28 sm:-left-20 z-10'></motion.div>
             <div className="flex flex-wrap justify-center gap-10 sm:gap-20 z-20">
                 {projects.map((project, index) => (
                     <ProjectCard key={index} project={project} index={index} />

@@ -21,10 +21,22 @@
 
 import nooffensebut from '../assets/images/nooofensebut.jpeg';
 import codeio from '../assets/images/codeio.jpeg';
-import wheele from '../assets/images/Wheele.png'  
+import wheele from '../assets/images/Wheele.png'
 import leetcode from '../assets/images/leetcode.png';
 import github from '../assets/images/github.png';
 import codechef from '../assets/images/codechef.jpeg';
+import codehunt from '../assets/images/CodeHunt.png';
+import devsprints from '../assets/images/Devsprints.png';
+import hackai from '../assets/images/hackai.png';
+import webdevudemy from '../assets/images/webdevudemy.jpg';
+import problemsolving from '../assets/images/problemsolving.png';
+import pythonbasic from '../assets/images/pythonbasic.png';
+import sqlbasic from '../assets/images/sqlbasic.png';
+import cssbasic from '../assets/images/cssbasic.png';
+import genai from '../assets/images/genai.png';
+import gccfccf from '../assets/images/gccfccf.png';
+import gccfdma from '../assets/images/gccfdma.png';
+import webwars from '../assets/images/webwars.png';
 
 //   const services = [
 //     {
@@ -48,7 +60,7 @@ import codechef from '../assets/images/codechef.jpeg';
 //       content: "I'm fascinated by the art and science of User Interface (UI) and User Experience (UX) design. Even though not proficient in this field, I'm highly interested to learn more. Crafting visually appealing and user-centered interfaces is my passion. "
 //     },
 //   ];
-  
+
 //   const technologies = [
 //     {
 //       name: "HTML 5",
@@ -128,31 +140,31 @@ import codechef from '../assets/images/codechef.jpeg';
 //       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg"
 //     }
 //   ];
-  
-  const education = [
-    {
-      title: "BMS College of Engineering",
-      degree: "B.E. in Computer Science",
-      place_name: "Bangalore",
-      date: "November 2022 - 2026",
-      grade: "CGPA: 9.85 (current)"
-    },
-    {
-      title: "CFAL India",
-      degree: "Class XII",
-      place_name: "Mangalore",
-      date: "April 2020 - May 2022",
-      grade: "Percentage: 96.33%"
-    },
-    {
-      title: "Shriniketana School",
-      degree: "Class X",
-      place_name: "Sirsi",
-      date: "June 2008 - March 2020",
-      grade: "Percentage: 96%"
-    },
-  ];
-  
+
+const education = [
+  {
+    title: "BMS College of Engineering",
+    degree: "B.E. in Computer Science",
+    place_name: "Bangalore",
+    date: "November 2022 - 2026",
+    grade: "CGPA: 9.85 (current)"
+  },
+  {
+    title: "CFAL India",
+    degree: "Class XII",
+    place_name: "Mangalore",
+    date: "April 2020 - May 2022",
+    grade: "Percentage: 96.33%"
+  },
+  {
+    title: "Shriniketana School",
+    degree: "Class X",
+    place_name: "Sirsi",
+    date: "June 2008 - March 2020",
+    grade: "Percentage: 96%"
+  },
+];
+
 //   const projects = [
 //     {
 //       name: "Wheel-E",
@@ -188,125 +200,159 @@ import codechef from '../assets/images/codechef.jpeg';
 //     },
 //   ];
 
-//   const achievements = [
-//     {
-//       image: Devsprints,
-//       title: 'Runner Up',
-//       subtitle: 'in Devsprints Hackathon',
-//       text: 'A 24 hour National Level Hackathon organized by BMSCE IEEE Computer Society',
-//       link: Devsprints
-//     },
-//     {
-//       image: CodeHunt,
-//       title: 'First Place',
-//       subtitle: 'in CodeHunt 2.1 Code-a-thon',
-//       text: 'A college level Code-a-thon organized by BMSCE IEEE Computer Society',
-//       link: CodeHunt
-//     },
-//     {
-//       image: 'public/herobg.png',
-//       title: 'Finalist',
-//       subtitle: 'in Hack AI Hackathon',
-//       text: 'A national level Hackathon organized by TechFest IIT Bombay\'23',
-//       link: ''
-//     },
-//     {
-//       image: 'public/herobg.png',
-//       title: 'Finalist',
-//       subtitle: 'in Hack It Out Hackathon',
-//       text: 'A national level Hackathon organized by IIT Patna during Celesta\'23',
-//       link: ''
-//     },
-//     {
-//       image: Leetcode,
-//       title: 'LeetCode',
-//       subtitle: 'Profile',
-//       text: 'Max Rating: 1597 | Problems Solved: 200+',
-//       link: 'https://leetcode.com/pranavrao/'
-//     },
-//     {
-//       image: Codechef,
-//       title: 'CodeChef',
-//       subtitle: 'Profile',
-//       text: '3⭐ | Max Rating: 1636 | Problems Solved: 150+',
-//       link: 'https://www.codechef.com/users/pranavrao18'
-//     },
-//   ]
+const achievements = [
+  {
+    image: hackai,
+    title: 'Finalist',
+    subtitle: 'in Hack AI Hackathon',
+    text: 'A national level Hackathon organized by TechFest IIT Bombay\'23',
+    link: hackai
+  },
+  {
+    image: devsprints,
+    title: 'Runner Up',
+    subtitle: 'in Devsprints Hackathon',
+    text: 'A 24 hour National Level Hackathon organized by BMSCE IEEE Computer Society',
+    link: devsprints
+  },
+  {
+    image: codehunt,
+    title: 'First Place',
+    subtitle: 'in CodeHunt 2.1 Code-a-thon',
+    text: 'A college level Code-a-thon organized by BMSCE IEEE Computer Society',
+    link: codehunt
+  },
+  {
+    image: webwars,
+    title: 'Runner Up',
+    subtitle: 'in Web Wars',
+    text: 'Hackathon organized by ACM Student Chapter BMSCE during Phaseshift\'23',
+    link: webwars
+  },
+  {
+    image: webdevudemy,
+    title: 'The Complete Web Development Bootcamp',
+    subtitle: 'Udemy',
+    link: 'https://www.udemy.com/certificate/UC-76ebe672-a737-48f2-8e58-97d1591af857/'
+  },
+  {
+    image: problemsolving,
+    title: 'Problem Solving (Basic)',
+    subtitle: 'HackerRank',
+    link: 'https://www.hackerrank.com/certificates/6becbf4e753f'
+  },
+  {
+    image: pythonbasic,
+    title: 'Python (Basic)',
+    subtitle: 'HackerRank',
+    link: 'https://www.hackerrank.com/certificates/0e445ff35ec7'
+  },
+  {
+    image: sqlbasic,
+    title: 'SQL (Basic)',
+    subtitle: 'HackerRank',
+    link: 'https://www.hackerrank.com/certificates/4225570bb60b'
+  },
+  {
+    image: cssbasic,
+    title: 'CSS (Basic)',
+    subtitle: 'HackerRank',
+    link: 'https://www.hackerrank.com/certificates/5b9c0f71f387'
+  },
+  {
+    image: genai,
+    title: 'Introduction to Generative AI',
+    subtitle: 'Google Cloud Skills Boost',
+    link: 'https://www.cloudskillsboost.google/public_profiles/75f3c4b2-c288-4652-b354-73a6a73411df/badges/4162676'
+  },
+  {
+    image: gccfccf,
+    title: 'Google Cloud Computing Fundamentals',
+    subtitle: 'Google Cloud Skills Boost',
+    link: 'https://www.cloudskillsboost.google/public_profiles/abb9db71-a6b6-4b81-a344-5769f6b6ac72/badges/5689828'
+  },
+  {
+    image: gccfdma,
+    title: 'Data, ML, and AI in Google Cloud',
+    subtitle: 'Google Cloud Skills Boost',
+    link: 'https://www.cloudskillsboost.google/public_profiles/abb9db71-a6b6-4b81-a344-5769f6b6ac72/badges/5737045'
+  },
+]
 
 const coding = [
-    {
-        image: leetcode,
-        title: "Leetcode",
-        description: "Max Rating: 1691 | 350+ Problems Solved"
-    },
-    {
-        image: codechef,
-        title: "Codechef",
-        description: "3🌟 | Max Rating: 1650 | 150+ Problems Solved"
-    },
-    {
-        image: github,
-        title: "Github",
-        description: "10+ Public Repos | 10+ Projects"
-    },
+  {
+    image: leetcode,
+    title: "Leetcode",
+    description: "Max Rating: 1691 | 350+ Problems Solved"
+  },
+  {
+    image: codechef,
+    title: "Codechef",
+    description: "3🌟 | Max Rating: 1650 | 150+ Problems Solved"
+  },
+  {
+    image: github,
+    title: "Github",
+    description: "10+ Public Repos | 10+ Projects"
+  },
 ]
 
 const experience = [
   {
-      image: nooffensebut,
-      title: "Web Development Intern",
-      company: "No Offense, But",
-      date: "Feb 2023 - Present",
-      description: "My main focus these days is building products and leading projects for our clients at Upstatement. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I've also released an online video course that covers everything you need to know to build a web app with the Spotify API."
+    image: nooffensebut,
+    title: "Web Development Intern",
+    company: "No Offense, But",
+    date: "Feb 2023 - Present",
+    description: "My main focus these days is building products and leading projects for our clients at Upstatement. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I've also released an online video course that covers everything you need to know to build a web app with the Spotify API."
   },
   {
-      image: codeio,
-      title: "Member of Development Team",
-      company: "<CodeIO/>",
-      date: "Jan 2023 - Present",
-      description: "My main focus these days is building products and leading projects for our clients at Upstatement. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I've also released an online video course that covers everything you need to know to build a web app with the Spotify API."
+    image: codeio,
+    title: "Member of Development Team",
+    company: "<CodeIO/>",
+    date: "Jan 2023 - Present",
+    description: "My main focus these days is building products and leading projects for our clients at Upstatement. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I've also released an online video course that covers everything you need to know to build a web app with the Spotify API."
   }
 ]
 
 const projects = [
-    {
-      title: 'WheelE',
-      image: wheele,
-      github: 'https://github.com/PranavRao18/WheelE',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
-    },
-    {
-      title: 'Cli-mate',
-      image: wheele,
-      github: 'https://github.com/me-sanath/climate',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
-    },
-    {
-      title: 'GeoCrisis',
-      image: wheele,
-      github: 'https://github.com/me-sanath/climate',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
-    },
-    {
-      title: 'Portfolio',
-      image: wheele,
-      github: 'https://github.com/me-sanath/climate',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
-    },
-    {
-      title: 'College Guidance',
-      image: wheele,
-      github: 'https://github.com/me-sanath/climate',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
-    },
-    {
-      title: 'No Offense, But',
-      image: wheele,
-      github: 'https://github.com/me-sanath/climate',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
-    },
-  ];
-  
+  {
+    title: 'WheelE',
+    image: wheele,
+    github: 'https://github.com/PranavRao18/WheelE',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
+  },
+  {
+    title: 'Cli-mate',
+    image: wheele,
+    github: 'https://github.com/me-sanath/climate',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
+  },
+  {
+    title: 'GeoCrisis',
+    image: wheele,
+    github: 'https://github.com/me-sanath/climate',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
+  },
+  {
+    title: 'Portfolio',
+    image: wheele,
+    github: 'https://github.com/me-sanath/climate',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
+  },
+  {
+    title: 'College Guidance',
+    image: wheele,
+    github: 'https://github.com/me-sanath/climate',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
+  },
+  {
+    title: 'No Offense, But',
+    image: wheele,
+    github: 'https://github.com/me-sanath/climate',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
+  },
+];
+
 //   export { services, technologies, education, achievements, projects };
 
-export { education, experience, projects, coding };
+export { education, experience, projects, coding, achievements };
