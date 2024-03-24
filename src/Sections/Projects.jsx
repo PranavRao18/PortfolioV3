@@ -8,7 +8,7 @@ const ProjectCard = ({ project, index }) => {
     return (
         <motion.div variants={textVariant(index*0.2)} className="relative p-8 shadow-lg glass w-full sm:max-w-[500px] z-20">
             <a href={project.github} target='_blank' className='hover:scale-110'>
-                <img src={project.image} alt={project.title} className="w-full h-auto rounded-lg mb-4" />
+                <img src={project.image} alt={project.title} className="h-[8rem] sm:h-[14rem] w-full object-cover rounded-lg mb-4" />
                 <h3 className="text-2xl font-semibold mb-2 text-textdark2 drop-shadow-xl">{project.title}</h3>
                 <p className="text-textdark2 mb-4">{project.description}</p>
             </a>

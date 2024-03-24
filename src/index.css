@@ -82,6 +82,11 @@
   }
 }
 
-.link-text{
-  transition: all 0.5 ease-in;
+.link1 {
+  transition: all 0.1s ease;
+}
+
+.link1:hover {
+  padding-right: 0;
+  padding-left: 10px;
 }

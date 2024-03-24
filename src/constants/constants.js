@@ -37,6 +37,11 @@ import genai from '../assets/images/genai.png';
 import gccfccf from '../assets/images/gccfccf.png';
 import gccfdma from '../assets/images/gccfdma.png';
 import webwars from '../assets/images/webwars.png';
+import collegecomapss from '../assets/images/collegecompass.png';
+import nob from '../assets/images/nob.png';
+import portfolio from '../assets/images/portfolio.png';
+import climate from '../assets/images/climate.png';
+import geocrisis from '../assets/images/Geocrisis.png';
 
 //   const services = [
 //     {
@@ -303,53 +308,57 @@ const experience = [
     title: "Web Development Intern",
     company: "No Offense, But",
     date: "Feb 2023 - Present",
-    description: "My main focus these days is building products and leading projects for our clients at Upstatement. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I've also released an online video course that covers everything you need to know to build a web app with the Spotify API."
+    description: "At my ongoing internship as a Web Development Intern at No Offense, But, we're currently in the exciting phase of finalizing the development of a full-stack website for the company. Leveraging my expertise in ReactJS, NodeJS, MongoDB, and various frameworks, we've crafted a visually appealing interface aimed at enhancing user engagement. Additionally, we're in the process of implementing robust SEO strategies to optimize the website's visibility and reach."
   },
   {
     image: codeio,
-    title: "Member of Development Team",
+    title: "Senior Core Member of Development Team",
     company: "<CodeIO/>",
     date: "Jan 2023 - Present",
-    description: "My main focus these days is building products and leading projects for our clients at Upstatement. I most enjoy building software in the sweet spot where design and engineering meet — things that look good but are also built well under the hood. In my free time, I've also released an online video course that covers everything you need to know to build a web app with the Spotify API."
+    description: "As a Senior Core Member in the Development Wing of <CodeIO/> club at BMSCE, I play an integral role in collaborative projects aimed at enhancing different facets of college life. Currently, we're actively involved in the development of an ERP portal tailored specifically for our college. Together with my team, we're striving to simplify administrative processes, foster better communication, and enhance overall efficiency throughout the campus."
   }
 ]
 
 const projects = [
   {
+    title: 'College Compass',
+    image: collegecomapss,
+    github: 'https://github.com/PranavRao30/College-Guidance',
+    description: 'A website for KCET aspirants to predict and bookmark their favourite colleges. A community for students to share and gain knowledge',
+    tags: ["ReactJS", "NodeJS", "TailwindCSS", "MongoDB"],
+  },
+  {
+    title: 'No Offense, But Website',
+    image: nob,
+    github: 'http://nooffensebut.netlify.app',
+    description: 'A blog website built for an internnship at "No Offense, But". Fully functional website built from scratch as a team of two.',
+    tags: ["ReactJS", "NodeJS", "MongoDB", "CSS"],
+  },
+  {
     title: 'WheelE',
     image: wheele,
-    github: 'https://github.com/PranavRao18/WheelE',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
-  },
-  {
-    title: 'Cli-mate',
-    image: wheele,
-    github: 'https://github.com/me-sanath/climate',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
-  },
-  {
-    title: 'GeoCrisis',
-    image: wheele,
-    github: 'https://github.com/me-sanath/climate',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
+    github: 'https://github.com/PranavRao18/Wheel-E',
+    description: 'An electric vehicle exclusive taxi service website. Built as a team of four in a 24 hour Hackathon. Achieved 2nd place for the same.',
   },
   {
     title: 'Portfolio',
-    image: wheele,
-    github: 'https://github.com/me-sanath/climate',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
+    image: portfolio,
+    github: 'https://github.com/PranavRao18/PortfolioV3',
+    description: 'A website to showcase my skills, projects, achievements, education and experiences in the industry.',
   },
   {
-    title: 'College Guidance',
-    image: wheele,
-    github: 'https://github.com/me-sanath/climate',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
+    title: 'Cli-mate',
+    image: climate,
+    github: 'https://github.com/me-sanath/HackAI_Hack-230354',
+    description: "A weather mobile-app which notifies you in-case of too high/ low temperatures. Featured as the best project by IIT Bombay!",
+    tags: ["Flutter", "Dart"],
   },
   {
-    title: 'No Offense, But',
-    image: wheele,
-    github: 'https://github.com/me-sanath/climate',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vestibulum magna non ultrices facilisis.',
+    title: 'GeoCrisis',
+    image: geocrisis,
+    github: 'https://github.com/satwikkini-01/hack-it-out',
+    description: 'GeoCrisis is a real-time user friendly mapping application that provides immediate insights into global crises.',
+    tags: ["HTML", "CSS", "BootStrap", "JavaScript", "Django"],
   },
 ];
 
