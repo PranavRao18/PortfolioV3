@@ -26,7 +26,7 @@ const About = () => {
                 <motion.div variants={textVariant(0.5)} className='lg:flex-1 flex justify-center lg:justify-end items-center'>
                     <img src={pranav} alt='image' className='w-[90vw] sm:w-[50vw] md:w-[25vw] rounded-[20px]'></img>
                 </motion.div>
-                <motion.div variants={textVariant(0.5)} className='lg:flex-1 flex flex-col items-center justify-center mt-4'>
+                <motion.div variants={textVariant(0.5)} className='lg:flex-1 flex flex-col justify-center mt-4'>
                     <CustomBullet>
                         Currently pursuing a Bachelor's degree in <span className='underline decoration-amber-200 text-#D7CC45 font-semibold'>Computer Science</span> at BMS College of Engineering in Bangalore.
                     </CustomBullet>
