@@ -65,6 +65,7 @@ function Contacts() {
                             onChange={handleChange}
                             placeholder="Name"
                             className="bg-transparent py-4 px-6 text-textlight rounded-lg outline-none focus:outline-none border-[3px] border-[#bebea0] font-medium"
+                            required
                         ></input>
                     </label>
                     <label className="flex flex-col">
@@ -76,6 +77,7 @@ function Contacts() {
                             onChange={handleChange}
                             placeholder="Email"
                             className="bg-transparent py-4 px-6 text-textlight rounded-lg outline-none focus:outline-none border-[3px] border-[#bebea0] font-medium"
+                            required
                         ></input>
                     </label>
                     <label className="flex flex-col">
@@ -88,6 +90,7 @@ function Contacts() {
                             onChange={handleChange}
                             placeholder="What's your message?"
                             className="bg-transparent py-4 px-6 text-textlight rounded-lg outline-none focus:outline-none border-[3px] border-[#bebea0] font-medium"
+                            required
                         ></textarea>
                     </label>
                     <div className="flex justify-center items-center">

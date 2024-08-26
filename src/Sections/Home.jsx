@@ -31,7 +31,7 @@ const Home = () => {
       <motion.div className='p-10 sm:p-20 z-10' style={{ opacity: calculateOpacity() }}>
         <motion.p variants={textVariant(0.2)} className='text-textlight text-2xl sm:text-7xl tracking-widest text-left'>HELLO THERE, <span className='font-bold'>I'M</span></motion.p>
         <motion.p variants={textVariant(0.1)} className='text-textlight text-7xl sm:text-[10rem] font-bold tracking-tighter mt-0 -sm:mt-10 -ml-1'>PRANAV RAO</motion.p>
-        <motion.p variants={textVariant(0.05)} className='text-textlight text-xl text-left sm:text-center -sm:mt-8'>I'm a student and a full stack developer.</motion.p>
+        <motion.p variants={textVariant(0.05)} className='text-textlight text-lg sm:text-2xl text-left sm:text-center -sm:mt-8'>I'm a student and a full stack developer.</motion.p>
       </motion.div>
     </motion.div>
   )

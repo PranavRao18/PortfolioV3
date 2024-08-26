@@ -1,14 +1,23 @@
 import React from 'react';
-import pranav from '../assets/images/pranav.jpg';
+import pranav from '../assets/images/me.jpg';
 import Education from '../components/Education';
 import { motion } from 'framer-motion';
-import { textVariant } from '../constants/motion';
+import { fallText, textVariant } from '../constants/motion';
 import { SectionWrapper } from '../hoc';
+import AnimatedTitle from '../components/AnimatedTitle';
+import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
+
+const CustomBullet = ({ children }) => (
+    <li className="text-textdark2 sm:text-xl sm:leading-9 px-0 py-2 sm:py-2 sm:px-20 flex items-start">
+        <DoubleArrowIcon className="text-amber-200 mr-2 sm:mt-[6px]" size={10} />
+        <span>{children}</span>
+    </li>
+);
 
 const About = () => {
     return (
         <motion.div variants={textVariant()} className='bg-black flex flex-col justify-center rounded-[50px] p-8 pt-12 sm:p-20 sm:pb-8 relative overflow-hidden'>
-            <motion.h1 className='text-textdark1 text-6xl sm:text-8xl font-semibold text-center p-0 sm:p-8 z-20'>ABOUT ME</motion.h1>
+            <AnimatedTitle text={"ABOUT ME"} />
             <motion.div variants={textVariant(0.8)} className='bg-gradient-to-b from-[#C9C6B2DD] to-transparent rounded-full w-[15rem] sm:w-[35rem] h-[15rem] sm:h-[35rem] absolute top-[25rem] sm:top-72 -right-10 sm:right-10 z-10 overflow-hidden'></motion.div>
             <motion.div variants={textVariant(0.4)} className='bg-gradient-to-b from-[#464335DD] to-transparent rounded-full w-[25rem] sm:w-[40rem] h-[25rem] sm:h-[40rem] absolute top-[20rem] sm:top-40 -right-28 sm:-right-20 z-10 overflow-hidden'></motion.div>
             <motion.div variants={textVariant(1.4)} className='bg-gradient-to-b from-[#464335DD] to-transparent rounded-full w-[20rem] sm:w-[50rem] h-[20rem] sm:h-[50rem] absolute -bottom-32 sm:-bottom-36 -left-32 sm:-left-44 z-10'></motion.div>
@@ -17,8 +26,25 @@ const About = () => {
                 <motion.div variants={textVariant(0.5)} className='lg:flex-1 flex justify-center lg:justify-end items-center'>
                     <img src={pranav} alt='image' className='w-[90vw] sm:w-[50vw] md:w-[25vw] rounded-[20px]'></img>
                 </motion.div>
-                <motion.div variants={textVariant(0.5)} className='lg:flex-1 flex items-center'>
-                    <p className='text-textdark2 sm:text-xl sm:leading-9 px-0 py-8 sm:p-20'>I am a dedicated MERN stack developer currently pursuing a Bachelor's degree in Computer Science at BMS College of Engineering in Bangalore. Proficient in MongoDB, Express.js, React.js, and Node.js, I have actively applied these skills in projects. I am deeply interested in the fusion of web development and machine learning, continually expanding my knowledge in both areas. A regular participant in hackathons, I thrive in high-pressure environments, showcasing problem-solving abilities and collaborative teamwork. I am now actively seeking new opportunities to contribute my skills and passion for innovation. Beyond my technical prowess, I engage with the tech community through extracurricular activities, such as participating in clubs and attending workshops. Outside of coding, I find solace in my love for music, which adds a creative dimension to my personality.</p>
+                <motion.div variants={textVariant(0.5)} className='lg:flex-1 flex flex-col items-center justify-center mt-4'>
+                    <CustomBullet>
+                        Currently pursuing a Bachelor's degree in <span className='underline decoration-amber-200 text-#D7CC45 font-semibold'>Computer Science</span> at BMS College of Engineering in Bangalore.
+                    </CustomBullet>
+                    <CustomBullet>
+                        My proficiency lies in <span className='underline decoration-amber-200 text-#D7CC45 font-semibold'>Competitive Programming</span> and <span className='underline decoration-amber-200 text-#D7CC45 font-semibold'>Web Development</span>.
+                    </CustomBullet>
+                    <CustomBullet>
+                        I have prior experience working for startups, which has taught me a lot.
+                    </CustomBullet>
+                    <CustomBullet>
+                        Apart from coding, I enjoy playing video games, listening to music, and traveling.
+                    </CustomBullet>
+                    <CustomBullet>
+                        I'm passionate about learning new technologies and applying them to solve real-world problems.
+                    </CustomBullet>
+                    <CustomBullet>
+                        I actively participate in hackathons and coding competitions to challenge myself and improve my skills.
+                    </CustomBullet>
                 </motion.div>
             </div>
             <motion.div variants={textVariant(1)} className='sm:p-12 z-20'>

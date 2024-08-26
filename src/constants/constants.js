@@ -152,7 +152,7 @@ const education = [
     degree: "B.E. in Computer Science",
     place_name: "Bangalore",
     date: "November 2022 - 2026",
-    grade: "CGPA: 9.85 (current)"
+    grade: "CGPA: 9.79 (Current)"
   },
   {
     title: "CFAL India",
