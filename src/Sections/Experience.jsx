@@ -9,7 +9,7 @@ const ExpCard = ({ exp, index }) => {
     return (
         <motion.div variants={textVariant(index*0.5)} className="bg-primary rounded-lg shadow-xl border-black border-2 overflow-hidden w-full md:w-[1000px] mx-auto my-6 py-6 flex flex-col md:flex-row z-20">
             <motion.div className='w-full flex justify-center items-center'>
-                <motion.img src={exp.image} alt="Company Logo" className="h-24 md:w-2/3 md:h-fit" />
+                <motion.img src={exp.image} alt="Company Logo" className="h-28 md:w-3/5 md:h-fit" />
             </motion.div>
             <motion.div className="p-4">
                 <motion.h3 className="text-2xl font-semibold mb-1">{exp.title}</motion.h3>

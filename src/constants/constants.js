@@ -42,6 +42,8 @@ import nob from '../assets/images/nob.png';
 import portfolio from '../assets/images/portfolio.png';
 import climate from '../assets/images/climate.png';
 import geocrisis from '../assets/images/Geocrisis.png';
+import bytedocker from '../assets/images/bytedocker.png';
+import utsav from '../assets/images/utsav.png';
 
 //   const services = [
 //     {
@@ -304,19 +306,34 @@ const coding = [
 
 const experience = [
   {
+    image: bytedocker,
+    title: "Full Stack Web Development Intern",
+    company: "ByteDocker",
+    date: "May 2024 - Aug 2024",
+    description: "During my internship at ByteDocker, I developed multiple websites for clients, ensuring they met their specific needs and were user-friendly. These websites are now actively being used by the clients, showcasing my ability to deliver practical and effective web solutions."
+},
+{
+    image: utsav,
+    title: "Full Stack Web Developer",
+    company: "BMSCE Utsav",
+    date: "April 2024 - May 2024",
+    description: "At BMSCE Utsav, my college's annual fest, I played a key role in developing multiple portals to streamline the management and operations of the event. These portals were essential in ensuring smooth coordination and successful execution of various fest activities."
+},
+{
     image: nooffensebut,
-    title: "Web Development Intern",
+    title: "Full Stack Web Development Intern",
     company: "No Offense, But",
-    date: "Feb 2023 - Present",
-    description: "At my ongoing internship as a Web Development Intern at No Offense, But, we're currently in the exciting phase of finalizing the development of a full-stack website for the company. Leveraging my expertise in ReactJS, NodeJS, MongoDB, and various frameworks, we've crafted a visually appealing interface aimed at enhancing user engagement. Additionally, we're in the process of implementing robust SEO strategies to optimize the website's visibility and reach."
-  },
-  {
-    image: codeio,
-    title: "Senior Core Member of Development Team",
-    company: "<CodeIO/>",
-    date: "Jan 2023 - Present",
-    description: "As a Senior Core Member in the Development Wing of <CodeIO/> club at BMSCE, I play an integral role in collaborative projects aimed at enhancing different facets of college life. Currently, we're actively involved in the development of an ERP portal tailored specifically for our college. Together with my team, we're striving to simplify administrative processes, foster better communication, and enhance overall efficiency throughout the campus."
-  }
+    date: "Feb 2024 - April 2024",
+    description: "During my internship at No Offense, But, I contributed to the development of a full-stack website for the company. Leveraging ReactJS, NodeJS, and MongoDB, I helped create a visually appealing and functional website, focusing on enhancing user engagement and optimization."
+},
+
+  // {
+  //   image: codeio,
+  //   title: "Senior Core Member of Development Team",
+  //   company: "<CodeIO/>",
+  //   date: "Jan 2023 - Present",
+  //   description: "As a Senior Core Member in the Development Wing of <CodeIO/> club at BMSCE, I play an integral role in collaborative projects aimed at enhancing different facets of college life. Currently, we're actively involved in the development of an ERP portal tailored specifically for our college. Together with my team, we're striving to simplify administrative processes, foster better communication, and enhance overall efficiency throughout the campus."
+  // }
 ]
 
 const projects = [
