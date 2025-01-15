@@ -27,7 +27,7 @@ const Coding = () => {
             <motion.div style={{ rotate: -45 }} variants={textVariant(1.7)} className='bg-gradient-to-b from-[#D9D6C5] to-transparent w-[15rem] sm:w-[35rem] h-[15rem] sm:h-[35rem] rounded-full absolute top-[26rem] sm:top-72 -right-10 sm:-right-[17rem] z-10 rotate'></motion.div>
             <motion.div style={{ rotate: 45 }} variants={textVariant(1.9)} className='bg-gradient-to-b from-[#464335DD] to-transparent w-[20rem] sm:w-[50rem] h-[20rem] sm:h-[50rem] rounded-full absolute bottom-40 sm:-bottom-36 -left-32 sm:-left-44 z-10 rotate'></motion.div>
             <motion.div style={{ rotate: 45 }} variants={textVariant(2)} className='bg-gradient-to-b from-[#D9D6C5] to-transparent w-[15rem] sm:w-[35rem] h-[15rem] sm:h-[25rem] rounded-full absolute bottom-40 sm:bottom-8 -left-20 sm:-left-8 z-10 rotate'></motion.div>
-            <motion.div className='flex justify-center items-center flex-col lg:flex-row'>
+            <motion.div className='flex justify-center items-center flex-col lg:flex-row flex-wrap'>
                 {coding.map((exp, index) => (
                     <CodeCard key={index} exp={exp} index={index} />
                 ))}

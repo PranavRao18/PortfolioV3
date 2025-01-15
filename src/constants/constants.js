@@ -1,30 +1,10 @@
-// import {
-//     javascript,
-//     html,
-//     css,
-//     reactjs,
-//     tailwind,
-//     nodejs,
-//     git,
-//     figma,
-//     threejs,
-//     CodeHunt,
-//     Devsprints,
-//     Leetcode,
-//     Codechef,
-//     Wheele,
-//     Geocrisis,
-//     Climate,
-//     Portfolio
-//   } from "../assets/assets";
-//   import icons from "./Icons";
-
 import nooffensebut from '../assets/images/nooofensebut.jpeg';
 import codeio from '../assets/images/codeio.jpeg';
 import wheele from '../assets/images/Wheele.png'
 import leetcode from '../assets/images/leetcode.png';
 import github from '../assets/images/github.png';
 import codechef from '../assets/images/codechef.jpeg';
+import codeforces from '../assets/images/codeforces.png';
 import codehunt from '../assets/images/CodeHunt.png';
 import devsprints from '../assets/images/Devsprints.png';
 import hackai from '../assets/images/hackai.png';
@@ -44,109 +24,8 @@ import climate from '../assets/images/climate.png';
 import geocrisis from '../assets/images/Geocrisis.png';
 import bytedocker from '../assets/images/bytedocker.png';
 import utsav from '../assets/images/utsav.png';
-
-//   const services = [
-//     {
-//       title: "WEB DEVELOPMENT",
-//       icon: icons.react,
-//       content: "I'm passionate about crafting the digital world through web development, and I specialize in the MERN stack (MongoDB, Express.js, React, Node.js). I enjoy building responsive and user-friendly websites that look great and deliver exceptional user experiences."
-//     },
-//     {
-//       title: "COMPETITIVE PROGRAMMING",
-//       icon: icons.laptop,
-//       content: "I thrive on the challenge of Competitive Programming. Solving complex algorithmic problems, optimizing code for efficiency, conquering coding competitions, and contributing to open-source projects are not just hobbies; they're a passion."
-//     },
-//     {
-//       title: "APP DEVELOPMENT",
-//       icon: icons.mobile,
-//       content: "I'm enthusiastic about mobile app development with a strong focus on Flutter and Dart. I love creating cross-platform, visually appealing applications that offer seamless experiences. The Flutter framework's flexibility empowers me to bring innovative app ideas to life."
-//     },
-//     {
-//       title: "UI/UX",
-//       icon: icons.layout,
-//       content: "I'm fascinated by the art and science of User Interface (UI) and User Experience (UX) design. Even though not proficient in this field, I'm highly interested to learn more. Crafting visually appealing and user-centered interfaces is my passion. "
-//     },
-//   ];
-
-//   const technologies = [
-//     {
-//       name: "HTML 5",
-//       icon: html,
-//     },
-//     {
-//       name: "CSS 3",
-//       icon: css,
-//     },
-//     {
-//       name: "JavaScript",
-//       icon: javascript,
-//     },
-//     {
-//       name: "React JS",
-//       icon: reactjs,
-//     },
-//     {
-//       name: "Tailwind CSS",
-//       icon: tailwind,
-//     },
-//     {
-//       name: "Bootstrap",
-//       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-//     },
-//     {
-//       name: "Node JS",
-//       icon: nodejs,
-//     },
-//     {
-//       name: "Express JS",
-//       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-//     },
-//     {
-//       name: "MongoDB",
-//       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-//     ,
-//     },
-//     {
-//       name: "Three JS",
-//       icon: threejs,
-//     },
-//     {
-//       name: "Django",
-//       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
-//     },
-//     {
-//       name: "Git",
-//       icon: git,
-//     },
-//     {
-//       name: "Github",
-//       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-//     },
-//     {
-//       name: "Python",
-//       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-//     },
-//     {
-//       name: "C",
-//       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
-//     },
-//     {
-//       name: "C++",
-//       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
-//     },
-//     {
-//       name: "Figma",
-//       icon: figma,
-//     },
-//     {
-//       name: "VS Code",
-//       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
-//     },
-//     {
-//       name: "Blender",
-//       icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg"
-//     }
-//   ];
+import phaseshift from '../assets/images/phaseshift.png';
+import mailzapp from '../assets/images/mailzapp.png';
 
 const education = [
   {
@@ -154,7 +33,7 @@ const education = [
     degree: "B.E. in Computer Science",
     place_name: "Bangalore",
     date: "November 2022 - 2026",
-    grade: "CGPA: 9.79 (Current)"
+    grade: "CGPA: 9.6 (Current)"
   },
   {
     title: "CFAL India",
@@ -171,41 +50,6 @@ const education = [
     grade: "Percentage: 96%"
   },
 ];
-
-//   const projects = [
-//     {
-//       name: "Wheel-E",
-//       subdescription: "An electric-vehicles exclusive taxi service website which is fully functional for both users and drivers.",
-//       description: "In a 24-hour hackathon, my team of four developed a transportation project for the theme Sustainable Development Goals. The website features user-friendly Login and SignUp pages, including one for drivers. It calculates the shortest route between pickup and drop locations using APIs, offers cost estimates for various transport modes, and allows users to book vehicles. Upon booking, drivers receive notifications and can accept, leading to automatic redirection to the user's location.",
-//       tags: ["HTML", "CSS", "TailwindCSS", "JavaScript"],
-//       image: Wheele,
-//       source_code_link: "https://github.com/PranavRao18/Wheel-E",
-//     },
-//     {
-//       name: "GeoCrisis",
-//       subdescription: "GeoCrisis is a real-time mapping application that provides immediate insights into global crises.",
-//       description: "GeoCrisis stands as a sophisticated and user-friendly real-time mapping application specifically crafted to provide instant, accurate, and visually immersive insights into crises and emergencies occurring worldwide. Leveraging cutting-edge technology, this platform is meticulously designed to serve as a comprehensive and pivotal tool for emergency responders, humanitarian organizations, governmental bodies, and the general public.",
-//       tags: ["HTML", "CSS", "BootStrap", "JavaScript", "Django"],
-//       image: Geocrisis,
-//       source_code_link: "https://github.com/satwikkini-01/hack-it-out",
-//     },
-//     {
-//       name: "cli-Mate",
-//       subdescription: "A weather mobile-app which notifies you in-case of too high/ low temperatures.",
-//       description: "Contributed significantly to the development of a cross-platform mobile application using Flutter, ensuring accessibility for both iOS and Android users. Held responsibility for front-end development, focusing on designing user interfaces and implementing core functionalities. Expertly integrated the Flutter framework, Dio for API communication, and Flutter Secure Storage for efficient data persistence. With the help of my teammates, used Django for backend framework.",
-//       tags: ["Flutter", "Dart"],
-//       image: Climate,
-//       source_code_link: "https://github.com/me-sanath/HackAI_Hack-230354",
-//     },
-//     {
-//       name: "PortFolio",
-//       subdescription: "A website to showcase my skills, projects, achievements and experiences.",
-//       description: "A curated digital showcase of my work and achievements, reflecting my skills and experiences in a visually engaging manner. It encompasses diverse projects, educational background, and personal interests, allowing visitors to explore my capabilities. This website serves as a valuable tool for potential employers, collaborators, or educational institutions to gain insights into my expertise and achievements. Through its user-friendly design, it offers a clear and structured representation of my talents and provides a convenient means to connect with me.",
-//       tags: ["ReactJS", "TailwindCSS"],
-//       image: Portfolio,
-//       source_code_link: "https://github.com/PranavRao18/PortfolioV2",
-//     },
-//   ];
 
 const achievements = [
   {
@@ -290,42 +134,54 @@ const coding = [
   {
     image: leetcode,
     title: "Leetcode",
-    description: "Max Rating: 1691 | 350+ Problems Solved"
-  },
-  {
-    image: codechef,
-    title: "Codechef",
-    description: "3🌟 | Max Rating: 1650 | 150+ Problems Solved"
+    description: "Max Rating: 2118 | 900+ Problems Solved"
   },
   {
     image: github,
     title: "Github",
     description: "10+ Public Repos | 10+ Projects"
   },
+  {
+    image: codechef,
+    title: "Codechef",
+    description: "5🌟 | Max Rating: 2012 | 250+ Problems Solved"
+  },
+  {
+    image: codeforces,
+    title: "Codeforces",
+    description: "Specialist | Max Rating: 1429"
+  },
 ]
 
 const experience = [
+  {
+    image: phaseshift,
+    title: "Web Development Coordinator",
+    company: "BMSCE Phase Shift",
+    date: "Nov 2024 - Dec 2024",
+    description: "At BMSCE Phase Shift, my college's annual fest, I played a key role in developing multiple portals to streamline the management and operations of the event. These portals were essential in ensuring smooth coordination and successful execution of various fest activities."
+  },
   {
     image: bytedocker,
     title: "Full Stack Web Development Intern",
     company: "ByteDocker",
     date: "May 2024 - Aug 2024",
     description: "During my internship at ByteDocker, I developed multiple websites for clients, ensuring they met their specific needs and were user-friendly. These websites are now actively being used by the clients, showcasing my ability to deliver practical and effective web solutions."
-},
-{
+  },
+  {
     image: utsav,
-    title: "Full Stack Web Developer",
+    title: "Web Development Coordinator",
     company: "BMSCE Utsav",
     date: "April 2024 - May 2024",
     description: "At BMSCE Utsav, my college's annual fest, I played a key role in developing multiple portals to streamline the management and operations of the event. These portals were essential in ensuring smooth coordination and successful execution of various fest activities."
-},
-{
+  },
+  {
     image: nooffensebut,
     title: "Full Stack Web Development Intern",
     company: "No Offense, But",
     date: "Feb 2024 - April 2024",
     description: "During my internship at No Offense, But, I contributed to the development of a full-stack website for the company. Leveraging ReactJS, NodeJS, and MongoDB, I helped create a visually appealing and functional website, focusing on enhancing user engagement and optimization."
-},
+  },
 
   // {
   //   image: codeio,
@@ -337,6 +193,41 @@ const experience = [
 ]
 
 const projects = [
+  {
+    title: 'No Login',
+    image: collegecomapss,
+    github: 'https://www.nologin.in',
+    description: 'A website for KCET aspirants to predict and bookmark their favourite colleges. A community for students to share and gain knowledge',
+    tags: ["ReactJS", "NodeJS", "TailwindCSS", "MongoDB"],
+  },
+  {
+    title: 'Alleviate',
+    image: collegecomapss,
+    github: '',
+    description: 'A website for KCET aspirants to predict and bookmark their favourite colleges. A community for students to share and gain knowledge',
+    tags: ["ReactJS", "NodeJS", "TailwindCSS", "MongoDB"],
+  },
+  {
+    title: 'MailZapp',
+    image: mailzapp,
+    github: 'https://github.com/PranavRao18/MailZapp',
+    description: 'A website for KCET aspirants to predict and bookmark their favourite colleges. A community for students to share and gain knowledge',
+    tags: ["ReactJS", "NodeJS", "TailwindCSS", "MongoDB"],
+  },
+  {
+    title: 'AttendEase',
+    image: collegecomapss,
+    github: 'https://github.com/PranavRao30/AttendEase',
+    description: 'A website for KCET aspirants to predict and bookmark their favourite colleges. A community for students to share and gain knowledge',
+    tags: ["ReactJS", "NodeJS", "TailwindCSS", "MongoDB"],
+  },
+  {
+    title: 'FitSync',
+    image: collegecomapss,
+    github: 'https://github.com/PranavRao18/fitSync',
+    description: 'A website for KCET aspirants to predict and bookmark their favourite colleges. A community for students to share and gain knowledge',
+    tags: ["ReactJS", "NodeJS", "TailwindCSS", "MongoDB"],
+  },
   {
     title: 'College Compass',
     image: collegecomapss,

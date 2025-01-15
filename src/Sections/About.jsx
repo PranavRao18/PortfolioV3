@@ -37,13 +37,13 @@ const About = () => {
                         I have prior experience working for startups, which has taught me a lot.
                     </CustomBullet>
                     <CustomBullet>
+                        I'll be joining <span className='underline decoration-amber-200 text-#D7CC45 font-semibold'>VISA</span> as an intern in the Summer of 2025.
+                    </CustomBullet>
+                    <CustomBullet>
+                        Regionalist in ICPC Amritapuri and Chennai Regionals 2024.
+                    </CustomBullet>
+                    <CustomBullet>
                         Apart from coding, I enjoy playing video games, listening to music, and traveling.
-                    </CustomBullet>
-                    <CustomBullet>
-                        I'm passionate about learning new technologies and applying them to solve real-world problems.
-                    </CustomBullet>
-                    <CustomBullet>
-                        I actively participate in hackathons and coding competitions to challenge myself and improve my skills.
                     </CustomBullet>
                 </motion.div>
             </div>
