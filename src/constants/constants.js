@@ -26,6 +26,10 @@ import bytedocker from '../assets/images/bytedocker.png';
 import utsav from '../assets/images/utsav.png';
 import phaseshift from '../assets/images/phaseshift.png';
 import mailzapp from '../assets/images/mailzapp.png';
+import alleviate from '../assets/images/alleviate.png';
+import nologin from '../assets/images/nologin.png';
+import attendease from '../assets/images/attendease.png'
+import fitsync from '../assets/images/fitsync.png'
 
 const education = [
   {
@@ -195,14 +199,14 @@ const experience = [
 const projects = [
   {
     title: 'No Login',
-    image: collegecomapss,
+    image: nologin,
     github: 'https://www.nologin.in',
     description: 'A website for KCET aspirants to predict and bookmark their favourite colleges. A community for students to share and gain knowledge',
     tags: ["ReactJS", "NodeJS", "TailwindCSS", "MongoDB"],
   },
   {
     title: 'Alleviate',
-    image: collegecomapss,
+    image: alleviate,
     github: '',
     description: 'A website for KCET aspirants to predict and bookmark their favourite colleges. A community for students to share and gain knowledge',
     tags: ["ReactJS", "NodeJS", "TailwindCSS", "MongoDB"],
@@ -216,14 +220,14 @@ const projects = [
   },
   {
     title: 'AttendEase',
-    image: collegecomapss,
+    image: attendease,
     github: 'https://github.com/PranavRao30/AttendEase',
     description: 'A website for KCET aspirants to predict and bookmark their favourite colleges. A community for students to share and gain knowledge',
     tags: ["ReactJS", "NodeJS", "TailwindCSS", "MongoDB"],
   },
   {
     title: 'FitSync',
-    image: collegecomapss,
+    image: fitsync,
     github: 'https://github.com/PranavRao18/fitSync',
     description: 'A website for KCET aspirants to predict and bookmark their favourite colleges. A community for students to share and gain knowledge',
     tags: ["ReactJS", "NodeJS", "TailwindCSS", "MongoDB"],
