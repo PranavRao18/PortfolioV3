@@ -19,7 +19,7 @@ const AchCard = ({ project, index }) => {
                 backgroundColor: "rgba(255, 255, 255, 0.1)",
                 transition: { duration: 0.5, type: "spring", stiffness: 500 },
             }}
-            className="relative p-8 shadow-lg glass w-full sm:max-w-[350px] z-20 bg-gradient-to-br from-[#ffffff22] to-[#ffffff11] backdrop-blur-lg border border-[#ffffff22] rounded-lg"
+            className="relative p-8 shadow-lg glass w-full sm:max-w-[350px] z-20 glass rounded-lg"
         >
             <motion.a href={project.image} target="_blank" rel="noopener noreferrer">
                 <motion.img
