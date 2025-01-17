@@ -21,23 +21,23 @@ const AchCard = ({ project, index }) => {
             }}
             className="relative p-8 shadow-lg glass w-full sm:max-w-[350px] z-20 bg-gradient-to-br from-[#ffffff22] to-[#ffffff11] backdrop-blur-lg border border-[#ffffff22] rounded-lg"
         >
-            <a href={project.image} target="_blank" rel="noopener noreferrer">
+            <motion.a href={project.image} target="_blank" rel="noopener noreferrer">
                 <motion.img
                     src={project.image}
                     alt={project.title}
                     className="w-full rounded-lg mb-4 h-[200px] transition-all"
                 />
-                <h3 className="text-xl font-semibold text-textdark2 drop-shadow-xl">
+                <motion.h3 className="text-xl font-semibold text-textdark2 drop-shadow-xl">
                     {project.title}
-                </h3>
-                <h3 className="text-md font-medium mb-2 text-textdark2 drop-shadow-xl">
+                </motion.h3>
+                <motion.h3 className="text-md font-medium mb-2 text-textdark2 drop-shadow-xl">
                     {project.subtitle}
-                </h3>
-                <p className="text-textdark2 mb-4 text-sm">{project.text}</p>
-                <p className="text-textdark2 mb-4 text-sm">
+                </motion.h3>
+                <motion.p className="text-textdark2 mb-4 text-sm">{project.text}</motion.p>
+                <motion.p className="text-textdark2 mb-4 text-sm">
                     {project.date ? "~" : ""} {project.date}
-                </p>
-            </a>
+                </motion.p>
+            </motion.a>
         </motion.div>
     );
 };
