@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Pulsating Glow Rings */
+.blur-3xl {
+    filter: blur(10px);
+}
+
+.pa2{
+    font-family: 'Press Start 2P', 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+/* Neon Shadows */
+.shadow-neonBlue {
+    box-shadow: 0 0 20px #4f46e5, 0 0 40px #3b82f6, 0 0 60px #4f46e5;
+}
+
+.shadow-neonPurple {
+    box-shadow: 0 0 20px #a855f7, 0 0 40px #d946ef, 0 0 60px #a855f7;
+}
+
+/* Text Styles */
+.text-white {
+    color: #ffffff;
+}
+
+.text-gray-300 {
+    color: #d1d5db;
+}
+
+/* Draggable */
+.cursor-pointer {
+    cursor: pointer;
+}
