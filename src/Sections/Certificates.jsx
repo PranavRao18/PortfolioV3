@@ -9,16 +9,39 @@ import { Parallax, Background, Layer } from 'react-parallax';
 
 const AchCard = ({ project, index }) => {
     return (
-        <motion.div variants={textVariant(index * 0.2)} className="relative p-8 shadow-lg glass w-full sm:max-w-[350px] z-20">
-            <a href={project.image} target='_blank' className='hover:scale-110'>
-                <img src={project.image} alt={project.title} className="w-full h-auto rounded-lg mb-4" />
-                <h3 className="text-xl font-semibold text-textdark2 drop-shadow-xl">{project.title}</h3>
-                <h3 className="text-md font-medium mb-2 text-textdark2 drop-shadow-xl">{project.subtitle}</h3>
+        <motion.div
+            variants={textVariant(index * 0.2)}
+            whileHover={{
+                scale: 1.1,
+                rotateY: 15,
+                rotateX: -15,
+                boxShadow: "0px 10px 30px rgba(255, 255, 255, 0.5)",
+                backgroundColor: "rgba(255, 255, 255, 0.1)",
+                transition: { duration: 0.5, type: "spring", stiffness: 500 },
+            }}
+            className="relative p-8 shadow-lg glass w-full sm:max-w-[350px] z-20 bg-gradient-to-br from-[#ffffff22] to-[#ffffff11] backdrop-blur-lg border border-[#ffffff22] rounded-lg"
+        >
+            <a href={project.image} target="_blank" rel="noopener noreferrer">
+                <motion.img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full rounded-lg mb-4 h-[200px] transition-all"
+                />
+                <h3 className="text-xl font-semibold text-textdark2 drop-shadow-xl">
+                    {project.title}
+                </h3>
+                <h3 className="text-md font-medium mb-2 text-textdark2 drop-shadow-xl">
+                    {project.subtitle}
+                </h3>
                 <p className="text-textdark2 mb-4 text-sm">{project.text}</p>
+                <p className="text-textdark2 mb-4 text-sm">
+                    {project.date ? "~" : ""} {project.date}
+                </p>
             </a>
         </motion.div>
     );
 };
+
 
 const Certificates = () => {
 

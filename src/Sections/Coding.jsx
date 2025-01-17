@@ -7,17 +7,25 @@ import HighlightedText from '../components/Highlight';
 
 const CodeCard = ({ exp, index }) => {
     return (
-        <motion.div variants={textVariant(index * 0.5)} className="bg-primary rounded-lg shadow-xl border-black border-2 overflow-hidden w-full sm:w-[500px] h-[340px] sm:h-[400px] mx-auto my-6 py-6 flex flex-col z-20">
-            <motion.div className='w-full flex justify-center items-center h-[250px] p-4'>
-                <motion.img src={exp.image} alt="Company Logo" className="w-full" />
+        <motion.div
+            variants={textVariant(index * 0.5)}
+            whileHover={{ scale: 1.1 }}
+            transition={{ type: "spring", stiffness: 300 }}
+            className="bg-primary rounded-lg shadow-xl border-black border-2 overflow-hidden w-full sm:w-[500px] h-[300px] sm:h-[400px] mx-auto my-6 py-6 flex flex-col z-20"
+        >
+            <motion.a href={exp.url} target='_blank'>
+            <motion.div className="w-full flex justify-center items-center h-[150px] sm:h-[250px] p-4">
+                <motion.img src={exp.image} alt="Logo" className="w-full" />
             </motion.div>
             <motion.div className="p-4">
                 <motion.h3 className="text-2xl font-semibold mb-1">{exp.title}</motion.h3>
                 <motion.p className="text-md">{exp.description}</motion.p>
             </motion.div>
+            </motion.a>
         </motion.div>
     );
-}
+};
+
 
 const Coding = () => {
     return (

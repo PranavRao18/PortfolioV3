@@ -4,62 +4,62 @@ import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 const Footer = () => {
     return (
         <div className='bg-[#E7DAB5]'>
-            <footer class="relative p-6 sm:p-20 w-full">
-                <div class="w-full flex justify-around sm:text-sm flex-wrap">
-                    <div class="flex flex-col md:col-span-6 lg:col-span-6">
-                        <span class="flex font-bold uppercase text-textlight pb-1">Navigation</span>
+            <footer className="relative p-6 sm:p-20 w-full">
+                <div className="w-full flex justify-around sm:text-sm flex-wrap">
+                    <div className="flex flex-col md:col-span-6 lg:col-span-6">
+                        <span className="flex font-bold uppercase text-textlight pb-1">Navigation</span>
                         <div className='w-full h-[1px] bg-textlight mx-auto mb-3'></div>
-                        <div class="flex flex-col gap-y-2">
-                            <a class="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#home">
-                                <ArrowRightIcon /><span class="link1">Home</span>
+                        <div className="flex flex-col gap-y-2">
+                            <a className="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#home">
+                                <ArrowRightIcon /><span className="link1">Home</span>
                             </a>
-                            <a class="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#about">
-                                <ArrowRightIcon /><span class="link1">About</span>
+                            <a className="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#about">
+                                <ArrowRightIcon /><span className="link1">About</span>
                             </a>
-                            <a class="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#experience">
-                                <ArrowRightIcon /><span class="link1">Experience</span>
+                            <a className="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#experience">
+                                <ArrowRightIcon /><span className="link1">Experience</span>
                             </a>
-                            <a class="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#projects">
-                                <ArrowRightIcon /><span class="link1">Projects</span>
+                            <a className="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#projects">
+                                <ArrowRightIcon /><span className="link1">Projects</span>
                             </a>
-                            <a class="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#coding">
-                                <ArrowRightIcon /><span class="pr-[10px] link1">Coding Profiles</span>
+                            <a className="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#coding">
+                                <ArrowRightIcon /><span className="pr-[10px] link1">Coding Profiles</span>
                             </a>
-                            <a class="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#certificates">
-                                <ArrowRightIcon /><span class="link1">Certificates</span>
+                            <a className="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#certificates">
+                                <ArrowRightIcon /><span className="link1">Certificates</span>
                             </a>
-                            <a class="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#contact">
-                                <ArrowRightIcon /><span class="link1">Contact</span>
+                            <a className="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#contact">
+                                <ArrowRightIcon /><span className="link1">Contact</span>
                             </a>
                         </div>
                     </div>
-                    <div class="flex flex-col md:col-span-6 lg:col-span-6">
-                        <span class="flex font-bold uppercase text-textlight pb-1">Socials</span>
+                    <div className="flex flex-col md:col-span-6 lg:col-span-6">
+                        <span className="flex font-bold uppercase text-textlight pb-1">Socials</span>
                         <div className='w-full h-[1px] bg-textlight mx-auto mb-3'></div>
-                        <div class="flex flex-col gap-y-2">
-                            <a class="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#home">
-                                <ArrowRightIcon /><span class="link1">LinkedIn</span>
+                        <div className="flex flex-col gap-y-2">
+                            <a className="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="https://www.linkedin.com/in/pranav-rao-b00926223/" target='_blank'>
+                                <ArrowRightIcon /><span className="link1">LinkedIn</span>
                             </a>
-                            <a class="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#home">
-                                <ArrowRightIcon /><span class="pr-[10px] link1">Instagram</span>
+                            <a className="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="https://github.com/PranavRao18" target='_blank'>
+                                <ArrowRightIcon /><span className="link1">Github</span>
                             </a>
-                            <a class="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#home">
-                                <ArrowRightIcon /><span class="link1">Github</span>
+                            <a className="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="https://leetcode.com/u/pranavrao/" target='_blank'>
+                                <ArrowRightIcon /><span className="link1">Leetcode</span>
                             </a>
-                            <a class="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#home">
-                                <ArrowRightIcon /><span class="link1">Leetcode</span>
+                            <a className="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="https://www.codechef.com/users/pranavrao18" target='_blank'>
+                                <ArrowRightIcon /><span className="pr-[10px] link1">Codechef</span>
                             </a>
-                            <a class="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#home">
-                                <ArrowRightIcon /><span class="pr-[10px] link1">Codechef</span>
+                            <a className="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="https://codeforces.com/profile/pranavrao18" target='_blank'>
+                                <ArrowRightIcon /><span className="pr-[10px] link1">Codeforces</span>
                             </a>
                         </div>
                     </div>
-                    <div class="flex flex-col md:col-span-6 lg:col-span-6">
-                        <span class="flex font-bold uppercase text-textlight pb-1">Resources</span>
+                    <div className="flex flex-col md:col-span-6 lg:col-span-6">
+                        <span className="flex font-bold uppercase text-textlight pb-1">Resources</span>
                         <div className='w-full h-[1px] bg-textlight mx-auto mb-3'></div>
-                        <div class="flex flex-col gap-y-2">
-                            <a class="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="#home">
-                                <ArrowRightIcon /><span class="pr-[10px] link1">Portoflio V1</span>
+                        <div className="flex flex-col gap-y-2">
+                            <a className="relative h-fit w-fit overflow-hidden font-medium text-texlight" href="https://pranavraov1.netlify.app" target='_blank'>
+                                <ArrowRightIcon /><span className="pr-[10px] link1">Portoflio V1</span>
                             </a>
                         </div>
                     </div>

@@ -42,7 +42,7 @@ export default function AnimatedTitle({ text }) {
   });
 
   return (
-    <motion.h2 ref={ref} aria-label={text} role="heading" className="text-textdark1 text-6xl sm:text-8xl font-semibold text-center p-0 sm:p-8 z-20">
+    <motion.h2 ref={ref} aria-label={text} role="heading" className="text-textdark1 text-5xl sm:text-8xl font-semibold text-center p-0 sm:p-8 z-20">
       {text.split("").map((character, index) => (
         <Character
           key={index}

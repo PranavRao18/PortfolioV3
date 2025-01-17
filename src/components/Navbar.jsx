@@ -14,13 +14,13 @@ const Overlay = ({ onClose }) => {
         <div className='absolute w-[2000px] h-80 bg-[#DAD7C733] -rotate-[40deg] z-0 mt-80'></div>
         <div className="overlay-content text-primarylight z-10">
           <motion.ul className='text-textdark2'>
-            <motion.li className='text-5xl sm:text-6xl font-bold hover:text-[#262010] p-4 py-2'
+            <motion.li className='text-6xl sm:text-6xl font-bold hover:text-[#262010] p-4 py-2'
                         initial = {{opacity: 0, x:'-50px'}}
                         animate = {{opacity : 1, x: '0px'}}
                         exit = {{ opacity: 0, x: '-50px'}}
                         transition = {{ duration: 0.5, ease: 'backOut', delay: 0.3}}
                         ><a href='#home'>Home</a></motion.li>
-            <motion.li className='text-5xl sm:text-6xl font-bold hover:text-[#262010] p-4 py-2'
+            <motion.li className='text-6xl sm:text-6xl font-bold hover:text-[#262010] p-4 py-2'
                         initial = {{opacity: 0, x:'-50px'}}
                         animate = {{opacity : 1, x: '0px'}}
                         exit = {{ opacity: 0, x: '-50px'}}
@@ -32,13 +32,13 @@ const Overlay = ({ onClose }) => {
                         exit = {{ opacity: 0, x: '-50px'}}
                         transition = {{ duration: 0.5, ease: 'backOut', delay: 0.5}}
                         ><a href='#experience'>Experience</a></motion.li>
-            <motion.li className='text-5xl sm:text-6xl font-bold hover:text-[#262010] p-4 py-2'
+            <motion.li className='text-6xl sm:text-6xl font-bold hover:text-[#262010] p-4 py-2'
                         initial = {{opacity: 0, x:'-50px'}}
                         animate = {{opacity : 1, x: '0px'}}
                         exit = {{ opacity: 0, x: '-50px'}}
                         transition = {{ duration: 0.5, ease: 'backOut', delay: 0.6}}
                         ><a href='#projects'>Projects</a></motion.li>
-            <motion.li className='text-5xl sm:text-6xl font-bold hover:text-[#262010] p-4 py-2'
+            <motion.li className='text-6xl sm:text-6xl font-bold hover:text-[#262010] p-4 py-2'
                         initial = {{opacity: 0, x:'-50px'}}
                         animate = {{opacity : 1, x: '0px'}}
                         exit = {{ opacity: 0, x: '-50px'}}
@@ -50,7 +50,7 @@ const Overlay = ({ onClose }) => {
                         exit = {{ opacity: 0, x: '-50px'}}
                         transition = {{ duration: 0.5, ease: 'backOut', delay: 0.7}}
                         ><a href='#certificates'>Certificates</a></motion.li>
-            <motion.li className='text-5xl sm:text-6xl font-bold hover:text-[#262010] p-4 py-2'
+            <motion.li className='text-6xl sm:text-6xl font-bold hover:text-[#262010] p-4 py-2'
                         initial = {{opacity: 0, x:'-50px'}}
                         animate = {{opacity : 1, x: '0px'}}
                         exit = {{ opacity: 0, x: '-50px'}}
@@ -77,21 +77,21 @@ const Navbar = () => {
   return (
     <>
       <div
-        className={`fixed w-20 h-20 top-6 sm:top-8 left-6 sm:left-8 navbar-icon z-50 rounded-full ${isCross ? 'cross bg-primary' : ''
+        className={`fixed w-16 h-16 top-6 sm:top-8 left-6 sm:left-8 navbar-icon z-50 rounded-full ${isCross ? 'cross bg-primary' : ''
           } bg-primary`}
         onClick={handleClick}
       >
         <div className="rounded-full p-4 flex flex-col justify-evenly items-center h-full w-full">
           <div
-            className={`w-12 h-1 bg-textlight rounded transition-transform ${isCross ? 'rotate-45 mt-0.5' : ''
+            className={`w-10 h-1 bg-textlight rounded transition-transform ${isCross ? 'rotate-45 mt-1' : ''
               }`}
           ></div>
           <div
-            className={`w-12 h-1 bg-textlight rounded transition-opacity ${isCross ? 'opacity-0' : ''
+            className={`w-10 h-1 bg-textlight rounded transition-opacity ${isCross ? 'opacity-0' : ''
               }`}
           ></div>
           <div
-            className={`w-12 h-1 bg-textlight rounded transition-transform ${isCross ? '-rotate-45 -mt-12' : ''
+            className={`w-10 h-1 bg-textlight rounded transition-transform ${isCross ? '-rotate-45 -mt-8' : ''
               }`}
           ></div>
         </div>

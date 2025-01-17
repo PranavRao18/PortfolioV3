@@ -6,6 +6,7 @@ import { fallText, textVariant } from '../constants/motion';
 import { SectionWrapper } from '../hoc';
 import AnimatedTitle from '../components/AnimatedTitle';
 import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
+import Skills from '../components/Skills';
 
 const CustomBullet = ({ children }) => (
     <li className="text-textdark2 sm:text-xl sm:leading-9 px-0 py-2 sm:py-2 sm:px-20 flex items-start">
@@ -50,6 +51,10 @@ const About = () => {
             <motion.div variants={textVariant(1)} className='sm:p-12 z-20'>
                 <motion.h1 className='text-textdark1 text-5xl sm:text-6xl font-semibold text-center p-0 sm:p-8'>Education</motion.h1>
                 <Education />
+            </motion.div>
+            <motion.div variants={textVariant(1)} className='sm:p-12 z-20'>
+                <motion.h1 className='text-textdark1 text-5xl sm:text-6xl font-semibold text-center p-0 sm:p-8'>Skills</motion.h1>
+                <Skills />
             </motion.div>
         </motion.div>
     );

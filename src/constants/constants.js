@@ -30,6 +30,19 @@ import alleviate from '../assets/images/alleviate.png';
 import nologin from '../assets/images/nologin.png';
 import attendease from '../assets/images/attendease.png'
 import fitsync from '../assets/images/fitsync.png'
+import codesprint from '../assets/images/codesprint.png'
+import codewars from '../assets/images/codewars.png'
+import amrita from '../assets/images/amritapuri.png'
+import chennai from '../assets/images/chennai.png'
+import css from "../assets/images/css.png";
+import figma from "../assets/images/figma.png";
+import git from "../assets/images/git.png";
+import html from "../assets/images/html.png";
+import javascript from "../assets/images/javascript.png";
+import nodejs from "../assets/images/nodejs.png";
+import reactjs from "../assets/images/reactjs.png";
+import tailwind from "../assets/images/tailwind.png";
+import threejs from "../assets/images/threejs.svg";
 
 const education = [
   {
@@ -57,32 +70,84 @@ const education = [
 
 const achievements = [
   {
+    image: chennai,
+    title: 'Regionalist',
+    subtitle: 'in ICPC Chennai Regionals',
+    text: 'AIR 37 in ICPC Chennai Regionals 2024',
+    date: 'Jan 2025',
+    link: chennai
+  },
+  {
+    image: amrita,
+    title: 'Regionalist',
+    subtitle: 'in ICPC Amritapuri Regionals',
+    text: 'AIR 170 in ICPC Amrtiapuri Regionals 2024',
+    date: 'Dec 2024',
+    link: amrita
+  },
+  {
+    image: portfolio,
+    title: 'Second Runner Up',
+    subtitle: 'in ML Matrix Hackathon',
+    text: 'An ML Hackathon organized by IEEE Computer Society',
+    date: 'Oct 2024',
+    link: portfolio
+  },
+  {
+    image: codewars,
+    title: 'Winner',
+    subtitle: 'in Codewars codeathon',
+    text: 'A codeathon organized by Sensored Club of BMSCE',
+    date: 'Jun 2024',
+    link: codewars
+  },
+  {
+    image: codesprint,
+    title: 'Runner Up',
+    subtitle: 'in CodeSprint Code-a-thon',
+    text: 'A codeathon organized by the Department of CSE, BMSCE',
+    date: 'Jun 2024',
+    link: codesprint
+  },
+  {
+    image: portfolio,
+    title: 'Runner Up',
+    subtitle: 'in Code Relay Coding Competition',
+    text: 'A Coding Competition organized by Gradient, the ML Club of BMSCE',
+    date: 'Apr 2024',
+    link: portfolio
+  },
+  {
     image: hackai,
     title: 'Finalist',
     subtitle: 'in Hack AI Hackathon',
     text: 'A national level Hackathon organized by TechFest IIT Bombay\'23',
+    date: 'Dec 2023',
     link: hackai
-  },
-  {
-    image: devsprints,
-    title: 'Runner Up',
-    subtitle: 'in Devsprints Hackathon',
-    text: 'A 24 hour National Level Hackathon organized by BMSCE IEEE Computer Society',
-    link: devsprints
-  },
-  {
-    image: codehunt,
-    title: 'First Place',
-    subtitle: 'in CodeHunt 2.1 Code-a-thon',
-    text: 'A college level Code-a-thon organized by BMSCE IEEE Computer Society',
-    link: codehunt
   },
   {
     image: webwars,
     title: 'Runner Up',
     subtitle: 'in Web Wars',
     text: 'Hackathon organized by ACM Student Chapter BMSCE during Phaseshift\'23',
+    date: 'Dec 2023',
     link: webwars
+  },
+  {
+    image: devsprints,
+    title: 'Runner Up',
+    subtitle: 'in Devsprints Hackathon',
+    text: 'A 24 hour National Level Hackathon by BMSCE IEEE Computer Society',
+    date: 'Aug 2023',
+    link: devsprints
+  },
+  {
+    image: codehunt,
+    title: 'Winner',
+    subtitle: 'in CodeHunt 2.1 Code-a-thon',
+    text: 'A college level Code-a-thon organized by BMSCE IEEE Computer Society',
+    date: 'Apr 2023',
+    link: codehunt
   },
   {
     image: webdevudemy,
@@ -138,22 +203,26 @@ const coding = [
   {
     image: leetcode,
     title: "Leetcode",
-    description: "Max Rating: 2118 | 900+ Problems Solved"
+    description: "Max Rating: 2118 | 900+ Problems Solved",
+    url: "https://leetcode.com/u/pranavrao/"
   },
   {
     image: github,
     title: "Github",
-    description: "10+ Public Repos | 10+ Projects"
+    description: "15+ Public Repos | 15+ Projects",
+    url: "https://github.com/PranavRao18"
   },
   {
     image: codechef,
     title: "Codechef",
-    description: "5🌟 | Max Rating: 2012 | 250+ Problems Solved"
+    description: "5🌟 | Max Rating: 2012 | 250+ Problems Solved",
+    url: "https://www.codechef.com/users/pranavrao18"
   },
   {
     image: codeforces,
     title: "Codeforces",
-    description: "Specialist | Max Rating: 1429"
+    description: "Specialist | Max Rating: 1431",
+    url: "https://codeforces.com/profile/pranavrao18"
   },
 ]
 
@@ -198,82 +267,177 @@ const experience = [
 
 const projects = [
   {
-    title: 'No Login',
+    title: 'NoLogin',
     image: nologin,
     github: 'https://www.nologin.in',
-    description: 'A website for KCET aspirants to predict and bookmark their favourite colleges. A community for students to share and gain knowledge',
+    description: 'A platform where users can share text and files globally without requiring login. Promotes simplicity and privacy.',
     tags: ["ReactJS", "NodeJS", "TailwindCSS", "MongoDB"],
   },
   {
     title: 'Alleviate',
     image: alleviate,
     github: '',
-    description: 'A website for KCET aspirants to predict and bookmark their favourite colleges. A community for students to share and gain knowledge',
+    description: 'A comprehensive platform that uses Machine Learning Techniques to predict specialists, diet and exercise plans.',
     tags: ["ReactJS", "NodeJS", "TailwindCSS", "MongoDB"],
   },
   {
     title: 'MailZapp',
     image: mailzapp,
     github: 'https://github.com/PranavRao18/MailZapp',
-    description: 'A website for KCET aspirants to predict and bookmark their favourite colleges. A community for students to share and gain knowledge',
+    description: 'A bulk email automation tool, built with Kestra, designed to simplify mass communication with a user-friendly interface.',
     tags: ["ReactJS", "NodeJS", "TailwindCSS", "MongoDB"],
   },
   {
     title: 'AttendEase',
     image: attendease,
     github: 'https://github.com/PranavRao30/AttendEase',
-    description: 'A website for KCET aspirants to predict and bookmark their favourite colleges. A community for students to share and gain knowledge',
+    description: 'A web application to simplify attendance for institutions, using Bluetooth Low Energy Signals along with seamless management.',
     tags: ["ReactJS", "NodeJS", "TailwindCSS", "MongoDB"],
   },
   {
     title: 'FitSync',
     image: fitsync,
     github: 'https://github.com/PranavRao18/fitSync',
-    description: 'A website for KCET aspirants to predict and bookmark their favourite colleges. A community for students to share and gain knowledge',
+    description: 'A fitness tracker app that synchronizes your fitness to keep you fit and healthy along with risk analysis on your health metrics.',
     tags: ["ReactJS", "NodeJS", "TailwindCSS", "MongoDB"],
   },
   {
     title: 'College Compass',
     image: collegecomapss,
     github: 'https://github.com/PranavRao30/College-Guidance',
-    description: 'A website for KCET aspirants to predict and bookmark their favourite colleges. A community for students to share and gain knowledge',
+    description: 'A tool for KCET aspirants to predict and bookmark their preferred colleges. Includes community features for peer interaction.',
     tags: ["ReactJS", "NodeJS", "TailwindCSS", "MongoDB"],
   },
   {
     title: 'No Offense, But Website',
     image: nob,
     github: 'http://nooffensebut.netlify.app',
-    description: 'A blog website built for an internnship at "No Offense, But". Fully functional website built from scratch as a team of two.',
+    description: 'A fully functional blog website built as part of an internship. Designed and developed collaboratively in a team of two.',
     tags: ["ReactJS", "NodeJS", "MongoDB", "CSS"],
-  },
-  {
-    title: 'WheelE',
-    image: wheele,
-    github: 'https://github.com/PranavRao18/Wheel-E',
-    description: 'An electric vehicle exclusive taxi service website. Built as a team of four in a 24 hour Hackathon. Achieved 2nd place for the same.',
-  },
-  {
-    title: 'Portfolio',
-    image: portfolio,
-    github: 'https://github.com/PranavRao18/PortfolioV3',
-    description: 'A website to showcase my skills, projects, achievements, education and experiences in the industry.',
-  },
-  {
-    title: 'Cli-mate',
-    image: climate,
-    github: 'https://github.com/me-sanath/HackAI_Hack-230354',
-    description: "A weather mobile-app which notifies you in-case of too high/ low temperatures. Featured as the best project by IIT Bombay!",
-    tags: ["Flutter", "Dart"],
   },
   {
     title: 'GeoCrisis',
     image: geocrisis,
     github: 'https://github.com/satwikkini-01/hack-it-out',
-    description: 'GeoCrisis is a real-time user friendly mapping application that provides immediate insights into global crises.',
+    description: 'A real-time mapping application offering immediate insights into global crises through an intuitive interface.',
     tags: ["HTML", "CSS", "BootStrap", "JavaScript", "Django"],
+  },
+  {
+    title: 'WheelE',
+    image: wheele,
+    github: 'https://github.com/PranavRao18/Wheel-E',
+    description: 'An electric vehicle-exclusive taxi service website developed in a 24-hour hackathon. Secured 2nd place for its innovative design.',
+    tags: ["HTML", "CSS", "JavaScript", "ReactJS"],
+  },
+  {
+    title: 'Cli-mate',
+    image: climate,
+    github: 'https://github.com/me-sanath/HackAI_Hack-230354',
+    description: 'A weather mobile app that sends notifications about extreme temperatures. Recognized as the best project by IIT Bombay.',
+    tags: ["Flutter", "Dart"],
+  },
+  {
+    title: 'Portfolio',
+    image: portfolio,
+    github: 'https://github.com/PranavRao18/PortfolioV3',
+    description: 'A personal portfolio website showcasing my skills, projects, achievements, education, and industry experiences.',
+    tags: ["ReactJS", "CSS"],
   },
 ];
 
-//   export { services, technologies, education, achievements, projects };
+const technologies = [
+  {
+    name: "C++",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+  },
+  {
+    name: "Python",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+  },
+  {
+    name: "C",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+  },
+  {
+    name: "Java",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "ReactJS",
+    icon: reactjs,
+  },
+  {
+    name: "TailwindCSS",
+    icon: tailwind,
+  },
+  {
+    name: "Bootstrap",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+  },
+  {
+    name: "NodeJS",
+    icon: nodejs,
+  },
+  {
+    name: "ExpressJS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+  },
+  {
+    name: "MongoDB",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+  },
+  {
+    name: "Firebase",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg"
+  },
+  {
+    name: "Flask",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg"
+  },
+  {
+    name: "Flutter",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg"
+  },
+  {
+    name: "Dart",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg"
+  },
+  {
+    name: "React Native",
+    icon: reactjs,
+  },
+  {
+    name: "Django",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+  },
+  {
+    name: "Git",
+    icon: git,
+  },
+  {
+    name: "Github",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+  },
+  {
+    name: "Figma",
+    icon: figma,
+  },
+  {
+    name: "VS Code",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+  }
+];
 
-export { education, experience, projects, coding, achievements };
+export { education, experience, projects, coding, achievements, technologies };
